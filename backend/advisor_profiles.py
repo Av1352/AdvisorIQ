@@ -1,0 +1,80 @@
+ADVISORS = [
+    {
+        "id": "adv_001",
+        "name": "Sarah Chen",
+        "title": "CFP, Wealth Management Specialist",
+        "firm": "Horizon Financial",
+        "specialties": ["retirement planning", "tax optimization", "estate planning"],
+        "min_assets": 250000,
+        "fee_structure": "Fee-only, 0.75% AUM",
+        "approach": "Conservative to moderate. Focuses on long-term wealth preservation, tax-efficient strategies, and retirement income planning. Works primarily with pre-retirees and high-income professionals.",
+        "bio": "15 years experience. Specializes in retirement transition, social security optimization, and building income portfolios for clients aged 50-65 with $250K-$2M in assets.",
+        "client_profile": "High income professionals aged 45-65, conservative risk tolerance, primary goal of retirement security and wealth preservation, assets $250K+",
+        "availability": "Accepting clients"
+    },
+    {
+        "id": "adv_002",
+        "name": "Marcus Williams",
+        "title": "CFA, Growth Investment Advisor",
+        "firm": "Apex Capital Advisory",
+        "specialties": ["equity investing", "growth portfolios", "alternative investments"],
+        "min_assets": 100000,
+        "fee_structure": "Fee-only, 1.0% AUM",
+        "approach": "Aggressive growth. Focuses on equity-heavy portfolios, alternative investments, and maximizing long-term returns. Best suited for clients with high risk tolerance and 10+ year horizon.",
+        "bio": "12 years experience. Built portfolios for tech entrepreneurs and young professionals. Specializes in concentrated equity positions, RSU management, and growth-oriented allocation.",
+        "client_profile": "Young professionals and entrepreneurs aged 25-45, high risk tolerance, long investment horizon, primary goal of wealth accumulation and aggressive growth",
+        "availability": "Accepting clients"
+    },
+    {
+        "id": "adv_003",
+        "name": "Priya Patel",
+        "title": "CFP, Family Financial Planner",
+        "firm": "Milestone Wealth",
+        "specialties": ["college savings", "family financial planning", "insurance planning", "mortgage strategy"],
+        "min_assets": 50000,
+        "fee_structure": "Flat fee $3,000/year + hourly",
+        "approach": "Holistic family planning. Covers budgeting, insurance, college savings (529 plans), mortgage decisions, and building a financial foundation for growing families.",
+        "bio": "8 years experience. Works with families navigating major life transitions — home buying, children, career changes. Strong focus on cash flow planning and protection strategies.",
+        "client_profile": "Families aged 28-45, moderate risk tolerance, goals of home ownership, college savings, and family financial security, income $80K-$200K",
+        "availability": "Accepting clients"
+    },
+    {
+        "id": "adv_004",
+        "name": "James O'Brien",
+        "title": "CFP, CPA — Tax-Integrated Planner",
+        "firm": "O'Brien Financial Group",
+        "specialties": ["tax planning", "small business owners", "equity compensation", "Roth conversions"],
+        "min_assets": 150000,
+        "fee_structure": "Fee-only, $5,000-$15,000/year depending on complexity",
+        "approach": "Tax-first financial planning. Integrates financial planning with tax strategy. Ideal for business owners, executives with equity comp, and anyone with complex tax situations.",
+        "bio": "18 years experience as both CPA and CFP. Specializes in business owner exit planning, Roth conversion strategies, and equity compensation (RSUs, ISOs, NQSOs).",
+        "client_profile": "Business owners, executives, and high earners aged 35-60 with complex tax needs, equity compensation, or small business ownership",
+        "availability": "Accepting clients"
+    },
+    {
+        "id": "adv_005",
+        "name": "Aisha Thompson",
+        "title": "CFP, Socially Responsible Investing",
+        "firm": "Verdant Wealth",
+        "specialties": ["ESG investing", "impact investing", "values-based portfolios", "sustainable finance"],
+        "min_assets": 75000,
+        "fee_structure": "Fee-only, 0.85% AUM",
+        "approach": "Values-aligned investing. Builds portfolios that reflect client values — ESG screening, impact funds, and sustainable alternatives — without sacrificing performance.",
+        "bio": "10 years experience. Pioneer in ESG and impact investing strategies. Works with clients who want their money to reflect their values while building long-term wealth.",
+        "client_profile": "Values-driven investors of all ages, moderate to aggressive risk tolerance, interested in ESG/impact investing and aligning portfolio with personal values",
+        "availability": "Accepting clients"
+    },
+    {
+        "id": "adv_006",
+        "name": "David Kim",
+        "title": "CFP, Early Career Specialist",
+        "firm": "Launchpad Financial",
+        "specialties": ["student loan strategy", "first-time investing", "budgeting", "emergency funds", "Roth IRA"],
+        "min_assets": 0,
+        "fee_structure": "Flat fee $150/month subscription",
+        "approach": "Financial foundation building for early career professionals. Covers debt payoff strategy, building first investment accounts, budgeting systems, and setting financial goals.",
+        "bio": "6 years experience. Specifically designed for clients under 35 with student loans, entry-level income, and limited savings looking to build a strong financial foundation.",
+        "client_profile": "Early career professionals aged 22-35, low to moderate income $40K-$90K, primary goals of debt payoff, starting to invest, and building financial foundation",
+        "availability": "Accepting clients"
+    }
+]
