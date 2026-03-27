@@ -20,7 +20,7 @@ export default function App() {
                         width: "28px", height: "28px", borderRadius: "6px",
                         background: "var(--gold)", display: "flex", alignItems: "center",
                         justifyContent: "center", fontSize: "16px"
-                    }}>₣</div>
+                    }}><img src="/logo.png" alt="Finny AI" style={{ width: "26px", height: "26px", objectFit: "contain" }} /></div>
                     <span style={{ fontSize: "15px", fontWeight: "600", letterSpacing: "-0.02em", color: "var(--text)" }}>
                         Finny AI
                     </span>

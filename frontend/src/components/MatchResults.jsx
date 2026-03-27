@@ -21,7 +21,7 @@ export default function MatchResults({ matches, loading, profile }) {
             display: "flex", flexDirection: "column", alignItems: "center",
             justifyContent: "center", height: "100%", gap: "16px"
         }}>
-            <div style={{ fontSize: "48px", opacity: 0.15 }}>₣</div>
+            <div style={{ fontSize: "48px", opacity: 0.15 }}><img src="/logo.png" alt="Finny AI" style={{ width: "48px", height: "48px", objectFit: "contain", opacity: 0.15 }} /></div>
             <div style={{
                 fontSize: "10px", color: "var(--gold)",
                 fontFamily: "'DM Mono', monospace", letterSpacing: "0.1em"
