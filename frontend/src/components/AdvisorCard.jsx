@@ -5,8 +5,14 @@ export default function AdvisorCard({ advisor, rank }) {
 
     return (
         <div
-            onMouseEnter={e => e.currentTarget.style.borderColor = "var(--gold)"}
-            onMouseLeave={e => e.currentTarget.style.borderColor = rank === 0 ? "var(--gold)" : "var(--border)"}
+            onMouseEnter={e => {
+                e.currentTarget.style.borderLeftColor = "#c9a84c"
+                e.currentTarget.style.background = "#131929"
+            }}
+            onMouseLeave={e => {
+                e.currentTarget.style.borderLeftColor = rank === 0 ? "#c9a84c" : "#1e2a42"
+                e.currentTarget.style.background = "#0d1220"
+            }}
             style={{
                 background: "var(--bg-card)", border: "1px solid var(--border)",
                 borderRadius: "14px", padding: "24px",
